@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+body{
+	background: #eee;
+	color: #fff;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #FFEBCD;
+	color: #000;
+}
+
+header{
+	text-align: center;
+	color: #232323;
+}
+
+header .judul{
+	font-size: 17pt;
+	color: #000;
+	text-align: center;
+}
+
+header .deskripsi{
+	font-size: 11pt;
+	color: #8A2BE2;
+	text-align: center;
+}
+.wrap {
+	width: 800px;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+nav.menu ul{
+	overflow: hidden;
+	color: #fff;
+	list-style: none;
+	float: left;
+	padding: 0;
+	width: 650px;
+	margin: 0 0 0;
+	background: #F4A460;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li{
+	margin: 0;
+	float: left;
+}
+
+nav.menu a{
+	padding: 25px;
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu a:hover {
+	text-decoration: underline;
+	background:#16a085;
+}
+
+@media screen and(max-width: 960px){
+	.header{
+		position: inherit;
+	}
+}
+
+.wrap{
+	width: 80%;
+	margin: auto;
+}
+
+nav.menu ul{
+	width: 100%;
+}
+
+nav.menu ul li {
+	float: inherit;
+	margin: 0;
+}
+nav.menu ul a{
+	padding: 15px;
+	font-size: 16px;
+	border-top: 1px solid #1abf9f;
+	border-bottom: 1px solid #16a085;
+}
+
+@media screen and (max-width: 460px) {
+
+	nav.menu ul a {
+		padding: 15px;
+		font-size: 14px;
+	}
+}
+
+.hero {
+	height: 400px;
+	background-image: url(sampah.jpg);
+	background-size: cover;
+	border-bottom: 5px solid red;
+	border-top: 5px solid lightskyblue;
+	border-left: 5px solid red;
+	border-right: 5px solid lightskyblue;
+
+}
+
+.content {
+	padding: 2px;
+}
+
+.content h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.content .penulis {
+	font-size: 12px;
+	margin-top: -10px;
+}
+.content p {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+footer {
+	background-color: #A52A2A;
+}
+footer .kaki {
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
